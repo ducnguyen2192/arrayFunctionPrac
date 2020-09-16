@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai3</title>
+</head>
+<body>
+
+<script>
+    let x = window.prompt();
+    let y = x.toString();
+    let z = [];
+
+    for(let i = 0; i<y.length; i++){
+        if(x[i] === x[i].toUpperCase()){
+            z.push(x[i].toLocaleLowerCase())
+        } else if(x[i] === x[i].toLocaleLowerCase()) {
+            z.push(x[i].toUpperCase())
+        }
+    }document.write(z)
+
+
+</script>
+</body>
+</html>

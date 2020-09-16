@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai2</title>
+</head>
+<body>
+
+<script>
+    let y = window.prompt();
+    let x = y.toString()
+    let z = [x[0]]
+
+        for (let i = 0; i < x.length; i++) {
+            if(x[i-1]%2 === 0 && x[i]%2 === 0){
+                z.push('-', x[i])
+            }else{
+                z.push(x[i])
+            }
+        }
+        console.log(z.join(''));
+
+
+
+</script>
+</body>
+</html>
